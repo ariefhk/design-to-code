@@ -20,7 +20,7 @@ body {
   background-image: url("/assets/background.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position:  center;
+  background-position: center;
   margin: auto;
   height: 100vh;
   max-width: 500px;
@@ -48,13 +48,13 @@ body {
 
 .main {
   width: 100%;
-  padding-top: 60px;
+  padding-top: 20px;
   display: flex;
   justify-content: space-around;
 }
 
 .harga {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   border-radius: 15px;
   padding: 10px 15px;
   background-color: white;
@@ -64,7 +64,7 @@ body {
 }
 
 .menu {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   border-radius: 15px;
   padding: 10px 15px;
   background-color: white;
@@ -79,8 +79,16 @@ p {
   margin-top: 5px;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
+
 }
 
 .line {
-  border: 1px solid red;
+  margin-top: 5px;
+  border: 1px solid #e21d24;
+
+}
+
+.price > em {
+  color: #e21d24;
+
 }
