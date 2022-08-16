@@ -5,18 +5,23 @@ html,
 body {
   margin: 0px;
   padding: 0px;
+  /* height: 100vh; */
 }
 
-.back{
-    background-color: #88181D;
+.back {
+  background-color: #88181d;
+}
+
+.head-img{
+    width: 100%;
 }
 
 .container {
-  width: 576px;
   background-image: url("/assets/background.png");
   background-size: cover;
-  height: 100vh;
   margin: auto;
+  height: 100vh;
+  max-width: 500px;
   box-shadow: 0px 0px 198px -5px rgba(232, 24, 24, 0.93);
   -webkit-box-shadow: 0px 0px 198px -5px rgba(232, 24, 24, 0.93);
   -moz-box-shadow: 0px 0px 198px -5px rgba(232, 24, 24, 0.93);
@@ -33,7 +38,7 @@ body {
 }
 
 .header {
-  width: 100%;
+  
   display: flex;
   justify-content: center;
   align-items: center;
